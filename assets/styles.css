@@ -1,0 +1,49 @@
+body {
+    background: #001628;
+    color: #777;
+    padding: 4em;
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+hr {
+    height: 6px;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+hr.image {
+    padding-bottom: 50%;
+}
+
+.page {
+    padding: 2em;
+    background: #cecece;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.archive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+.article {
+    padding: 1em;
+    background: #fff;
+    box-shadow:
+            0 5px 10px rgba(0, 0, 0, 0.1),
+            0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper{
+    padding: 30px;
+}
+
+.footer{
+    grid-column: 1 / -1;
+    color: crimson;
+}
